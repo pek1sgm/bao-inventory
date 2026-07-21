@@ -1,0 +1,15 @@
+[project]
+name = "bao-inventory"
+version = "0.1.0"
+description = "OpenBao/Vault Bestandsaufnahme & Redundanz-Analyse"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "truststore>=0.9",
+    "python-dotenv>=1.0",
+]
+
+[tool.uv]
+# Kein installierbares Paket, nur venv + Abhaengigkeiten fuer das Skript.
+package = false

@@ -1,0 +1,16 @@
+# Secrets / Konfiguration - NIEMALS committen
+.env
+*.token
+
+# Ergebnis-Reports (koennen sensible Struktur-/Hashdaten enthalten)
+out/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
